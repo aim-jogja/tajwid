@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  rflutter_alert: ^1.0.3
 
 dev_dependencies:
   flutter_test:
@@ -60,13 +61,27 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
      - assets/image/background.jpg
-     - assets/text/mimsukun.txt
-     - assets/text/nunsukun.txt
-     - assets/text/idgham.txt
-     - assets/text/lamtarif.txt
-     - assets/text/madd.txt
-     - assets/text/mimnuntasydid.txt
-     - assets/text/qolqolah.txt
+     - assets/image/belajar/mimsukun.png
+     - assets/image/belajar/nunsukun.png
+     - assets/image/belajar/idghom.png
+     - assets/image/belajar/lamtarif.png
+     - assets/image/belajar/qolqolah.png
+     - assets/image/belajar/madd.png
+     - assets/image/belajar/mimnuntasydid.png
+     - assets/image/quiz/aliflamqomariyah.png
+     - assets/image/quiz/aliflamsyamsiah.png
+     - assets/image/quiz/idghambighunnah.png
+     - assets/image/quiz/idghambilaghunnah.png
+     - assets/image/quiz/idghammimi.png
+     - assets/image/quiz/idzhar.png
+     - assets/image/quiz/idzharsyafawi.png
+     - assets/image/quiz/ikhfa.png
+     - assets/image/quiz/ikhfasyafawi.png
+     - assets/image/quiz/iqlab.png
+     - assets/image/quiz/madfari.png
+     - assets/image/quiz/madthobii.png
+     - assets/image/quiz/qolqolahkubro.png
+     - assets/image/quiz/qolqolahsughro.png
   #   - images/a_dot_ham.jpeg
   
   # An image asset can refer to one or more resolution-specific "variants", see

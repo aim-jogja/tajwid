@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:tajwid/quiz/QuizPage.dart';
 
 import 'belajar/index.dart';
 
@@ -46,6 +47,7 @@ class _homeState extends State<home> {
                 TextButton(
                   onPressed: (){
                     log("Tapped");
+                    Navigator.push(context, MaterialPageRoute(builder: ((context) => const QuizPage())));
                     }, 
                   child: Text("Latihan", style: TextStyle(color: Colors.black, fontFamily: "khodijah", fontSize: 30),),
                   style: TextButton.styleFrom(

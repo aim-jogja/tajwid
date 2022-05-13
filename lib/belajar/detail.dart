@@ -11,8 +11,9 @@ class detail extends StatefulWidget {
 class _detailState extends State<detail> {
   String? data;
 
-  void _loadData() async {
-    final _loadedData = await rootBundle.loadString('${widget.dataName}');
+  void _loadData() {
+    //final _loadedData = await rootBundle.loadString('${widget.dataName}');
+    final _loadedData = widget.dataName;
     setState(() {
       data = _loadedData;
     });
@@ -30,11 +31,11 @@ class _detailState extends State<detail> {
       body: Container(
         decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/image/background.jpg'),
+              image: AssetImage(data ?? 'assets/image/background.jpg'),
               fit: BoxFit.cover,
             ),
           ),
-        child: Center(child: Text(data ?? 'empty')),
+        child: null,
       ),
     );
   }

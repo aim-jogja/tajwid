@@ -29,7 +29,7 @@ class _IndexState extends State<Index> {
                 TextButton(
                   onPressed: (){
                     log("Tapped");
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/text/mimsukun.txt',)));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/image/belajar/mimsukun.png',)));
                     }, 
                   child: Text("Hukum Mim Bersukun", style: TextStyle(color: Colors.black, fontFamily: "khodijah", fontSize: 18),),
                   style: TextButton.styleFrom(
@@ -45,7 +45,7 @@ class _IndexState extends State<Index> {
                 TextButton(
                   onPressed: (){
                     log("Tapped");
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/text/nunsukun.txt',)));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/image/belajar/nunsukun.png',)));
                     }, 
                   child: Text("Hukum Nun Bersukun", style: TextStyle(color: Colors.black, fontFamily: "khodijah", fontSize: 18),),
                   style: TextButton.styleFrom(
@@ -61,7 +61,7 @@ class _IndexState extends State<Index> {
                 TextButton(
                   onPressed: (){
                     log("Tapped");
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/text/idgham.txt',)));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/image/belajar/idghom.png',)));
                     }, 
                   child: Text("Hukum Idgham", style: TextStyle(color: Colors.black, fontFamily: "khodijah", fontSize: 18),),
                   style: TextButton.styleFrom(
@@ -77,7 +77,7 @@ class _IndexState extends State<Index> {
                 TextButton(
                   onPressed: (){
                     log("Tapped");
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/text/lamtarif.txt',)));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/image/belajar/lamtarif.png',)));
                     }, 
                   child: Text("Hukum Lam Tarif", style: TextStyle(color: Colors.black, fontFamily: "khodijah", fontSize: 18),),
                   style: TextButton.styleFrom(
@@ -93,7 +93,7 @@ class _IndexState extends State<Index> {
                 TextButton(
                   onPressed: (){
                     log("Tapped");
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/text/qolqolah.txt',)));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/image/belajar/qolqolah.png',)));
                     }, 
                   child: Text("Hukum Qolqolah", style: TextStyle(color: Colors.black, fontFamily: "khodijah", fontSize: 18),),
                   style: TextButton.styleFrom(
@@ -109,7 +109,7 @@ class _IndexState extends State<Index> {
                 TextButton(
                   onPressed: (){
                     log("Tapped");
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/text/madd.txt',)));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/image/belajar/madd.png',)));
                     }, 
                   child: Text("Hukum Madd", style: TextStyle(color: Colors.black, fontFamily: "khodijah", fontSize: 18),),
                   style: TextButton.styleFrom(
@@ -125,7 +125,7 @@ class _IndexState extends State<Index> {
                 TextButton(
                   onPressed: (){
                     log("Tapped");
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/text/mimnuntasydid.txt',)));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const detail(dataName: 'assets/image/belajar/mimnuntasydid.png',)));
                     }, 
                   child: Text("Hukum Mim dan Nun Tasydid", style: TextStyle(color: Colors.black, fontFamily: "khodijah", fontSize: 16),),
                   style: TextButton.styleFrom(
